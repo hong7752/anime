@@ -1,0 +1,60 @@
+.navfixed {
+    /* 導覽列設定 */
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+nav>ul {
+    background-color: rgb(230, 230, 230, 0.5);
+    list-style: none;
+    /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit;
+    /* 移除超連結顏色 */
+    display: block;
+    /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+    /* 移除超連結底線 */
+}
+
+nav a:hover {
+    /* 滑鼠移到 <a> 時變成深底淺色 */
+    background-color: rgb(115, 115, 115);
+    color: white;
+    text-decoration: underline;
+}
+
+.gotop:hover {
+    /* 滑鼠移到Top */
+    opacity: 1.0;
+}
+
+.gotop {
+    /* Top觸發事件 */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background: rgb(90, 87, 87);
+    cursor: pointer;
+    border-radius: 20%;
+    opacity: 0.5;
+}
+
+.copyright {
+    /* 版權聲明 */
+    height: 100px;
+    min-width: 100%;
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
